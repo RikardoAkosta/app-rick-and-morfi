@@ -1,38 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 .App {
+  background-image: url(https://raw.githubusercontent.com/MalanFernando/Rick_and_Morty/main/src/images/backHead.jpg);
+  background-color: #05292E;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imgNav {
+  width: auto;
+  height: 250px;
+  box-shadow: 4px 4px 4px gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: crimson;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.inputSearch {
+  margin-top: 20px;
+  width: 250px;
+  height: 22px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: lightgrey;
+  
+
+}
+
+button {
+  background-color: #0ff031;
   color: white;
+  width: 80px;
+  height: 22px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+      
 }
 
-.App-link {
-  color: #61dafb;
+.App h2 {
+  color: yellow;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 55px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.locationInfo h4 {
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 50px;
+  display: inline-block;
+  color: yellow
 }
+
+.residentCard {
+  display: inline-block;
+  background-color: #34495E ;
+  margin: 20px;
+  width: 280px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+
+}
+
+.imgCard {
+  width: 265px;
+  height: 200px;
+  margin: 5px;
+  padding-left: 2px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px lightseagreen ;
+}
+
+.infoResident {
+  color: white;
+  margin: 2px 8px;
+  background-color: #6b737a;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px lightseagreen ;
+}
+
+.residentName {
+  color: yellow;
+}
+
